@@ -18,3 +18,5 @@ $ pants test example:
 ```
 
 Want more? Read [the friendly docs](https://pantsbuild.github.io/first_concepts.html). You can also watch [Twitter University's intro videos](https://engineering.twitter.com/university/videos/getting-started-with-the-pants-build-system-why-pants).
+
+If you're interested, here's [some background](https://orrsella.com/2015/05/31/getting-started-with-pants-build-for-scala-projects/) for this small template project.
