@@ -8,13 +8,13 @@ Getting started with [Pants Build](https://pantsbuild.github.io/) isn't [easy](h
 
 > If want to try out Pants and no Pants expert has set it up for you, you might try [https://github.com/twitter/commons](https://github.com/twitter/commons).
 
-So that's what I did – used existing pants setups to figure out the minimal Scala/Java project structure to get a Pants project compiling and running tests (including running tests written with [JUnit](http://junit.org/), [ScalaTest](http://scalatest.org/) and [Specs2](https://etorreborre.github.io/specs2/)). All you need to do to get started is [install](https://pantsbuild.github.io/install.html) the Pants executable ([System-wide Installation](https://pantsbuild.github.io/install.html#system-wide-installation) using `pip` works great for me), and you're good to go:
+So that's what I did – used existing pants setups to figure out the minimal Scala/Java project structure to get a Pants project compiling and running tests (including running tests written with JUnit, ScalaTest and Specs2). All you need to do to get started is [install](https://pantsbuild.github.io/install.html) the Pants executable ([System-wide Installation](https://pantsbuild.github.io/install.html#system-wide-installation) using `pip` works great for me), and you're good to go:
 
 ```bash
 $ pip install pantsbuild.pants
 $ git clone git@github.com:orrsella/pants-build-template.git
 $ cd pants-build-template/
-$ pants test example
+$ pants test example:
 ```
 
 Want more? Read [the friendly docs](https://pantsbuild.github.io/first_concepts.html).
