@@ -1,4 +1,4 @@
-# pants-build-template
+# pants-getting-started
 
 Getting started with [Pants Build](https://pantsbuild.github.io/) isn't [easy](https://pantsbuild.github.io/install.html):
 
@@ -12,8 +12,8 @@ So that's what I did – used existing pants setups to figure out the minimal Sc
 
 ```bash
 $ pip install pantsbuild.pants
-$ git clone git@github.com:orrsella/pants-build-template.git
-$ cd pants-build-template/
+$ git clone git@github.com:orrsella/pants-getting-started.git
+$ cd pants-getting-started/
 $ pants test example:
 ```
 
