@@ -17,4 +17,4 @@ $ cd pants-getting-started/
 $ pants test example:
 ```
 
-Want more? Read [the friendly docs](https://pantsbuild.github.io/first_concepts.html).
+Want more? Read [the friendly docs](https://pantsbuild.github.io/first_concepts.html). You can also watch [Twitter University's intro videos](https://engineering.twitter.com/university/videos/getting-started-with-the-pants-build-system-why-pants).
