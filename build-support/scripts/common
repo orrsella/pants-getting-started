@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Shared code between all scripts
+
+set -o errexit
+set -o nounset
+set -o pipefail

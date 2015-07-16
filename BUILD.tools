@@ -1,13 +1,72 @@
 # Nailgun
+# jar_library(
+#   name='nailgun-server',
+#   dependencies=['3rdparty/jvm/com/martiansoftware:nailgun-server']
+# )
+
+# Scala
+# jar_library(
+#   name='zinc',
+#   dependencies=['3rdparty/jvm/com/typesafe/zinc:zinc']
+# )
+
+# jar_library(
+#   name='scala-compiler',
+#   dependencies=['3rdparty/jvm/org/scala-lang:scala-compiler']
+# )
+
+# jar_library(
+#   name='scala-library',
+#   dependencies=['3rdparty/jvm/org/scala-lang:scala-library']
+# )
+
+# # JUnit Runner
+# jar_library(
+#   name='junit',
+#   dependencies=['3rdparty/jvm/com/twitter/common:junit-runner']
+# )
+
+
+
+# New
 jar_library(
   name='nailgun-server',
   dependencies=['3rdparty/jvm/com/martiansoftware:nailgun-server']
 )
 
-# Scala
 jar_library(
   name='zinc',
-  dependencies=['3rdparty/jvm/com/typesafe/zinc:zinc']
+  dependencies=['3rdparty/jvm/org/pantsbuild:zinc']
+)
+
+jar_library(
+  name='jmake',
+  dependencies=['3rdparty/jvm/org/pantsbuild:jmake']
+)
+
+jar_library(
+  name='java-compiler',
+  dependencies=['3rdparty/jvm/org/pantsbuild/tools/compiler:java-compiler']
+)
+
+jar_library(
+  name='compiler-interface',
+  dependencies=['3rdparty/jvm/com/typesafe/sbt:compiler-interface']
+)
+
+jar_library(
+  name='sbt-interface',
+  dependencies=['3rdparty/jvm/com/typesafe/sbt:sbt-interface']
+)
+
+jar_library(
+  name='jar-tool',
+  dependencies=['3rdparty/jvm/org/pantsbuild:jar-tool']
+)
+
+jar_library(
+  name='jarjar',
+  dependencies=['3rdparty/jvm/org/pantsbuild/jarjar:jarjar']
 )
 
 jar_library(
@@ -20,8 +79,17 @@ jar_library(
   dependencies=['3rdparty/jvm/org/scala-lang:scala-library']
 )
 
-# JUnit Runner
+jar_library(
+  name='scala-repl',
+  dependencies=['3rdparty/jvm/org/scala-lang:scala-repl']
+)
+
 jar_library(
   name='junit',
-  dependencies=['3rdparty/jvm/com/twitter/common:junit-runner']
+  dependencies=['3rdparty/jvm/junit:junit']
+)
+
+jar_library(
+  name='junit-runner',
+  dependencies=['3rdparty/jvm/org/pantsbuild:junit-runner']
 )
