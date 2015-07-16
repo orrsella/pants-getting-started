@@ -10,7 +10,9 @@ jar_library(
 
 jar_library(
   name='junit-runner',
-  jars=[jar(org='org.pantsbuild', name='junit-runner', rev='0.0.8')]
+  jars=[
+    jar(org='junit', name='junit', rev='4.12'),
+    jar(org='org.pantsbuild', name='junit-runner', rev='0.0.8')]
 )
 
 jar_library(
