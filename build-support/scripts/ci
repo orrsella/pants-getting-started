@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Invoked by the CI server to run the build
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+source build-support/scripts/common
+
+sudo pants test example:

@@ -2,9 +2,13 @@
 #
 # Perform necessary boostrapping to be able to build project with pants (should probably be run once only)
 
+set -o errexit
+set -o nounset
+set -o pipefail
+
 source build-support/scripts/common
 
-SCALA_VER='2.10.4'
+SCALA_VER='2.11.7'
 
 # java
 if ! type java > /dev/null; then
@@ -29,5 +33,3 @@ sudo apt-get -y install python-pip python-dev
 
 # pants
 sudo pip install pantsbuild.pants
-
-# vagrant
