@@ -18,15 +18,17 @@ All you need to do to get started is [install](https://pantsbuild.github.io/inst
 $ sudo pip install pantsbuild.pants
 ```
 
-Alternatively you can run the script `./build-support/scripts/setup` which also installs Java and Scala (in addition to pants).
+Alternatively you can run the script `./build-support/scripts/setup` which also installs Java and Scala (in addition to Pants).
 
 ## Run Build
 
 ```bash
 $ git clone git@github.com:orrsella/pants-getting-started.git
 $ cd pants-getting-started/
-$ sudo pants test example:
+$ pants test example:
 ```
+
+(tested with Pants version 0.0.36)
 
 Want more? Read [the friendly docs](https://pantsbuild.github.io/first_concepts.html). You can also watch [Twitter University's intro videos](https://engineering.twitter.com/university/videos/getting-started-with-the-pants-build-system-why-pants).
 
