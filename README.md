@@ -22,7 +22,7 @@ Alternatively you can run the script `./build-support/scripts/setup` which also 
 
 ## Run Build
 
-```
+```bash
 $ git clone git@github.com:orrsella/pants-getting-started.git
 $ cd pants-getting-started/
 $ sudo pants test example:
